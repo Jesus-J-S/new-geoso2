@@ -1,11 +1,10 @@
 /* Logo y marca */
 .navbar-logo {
   height: 30px;
-  width: auto;
 }
 .navbar-brand-logo {
   display: flex;
-  align-items: justify;
+  align-items: center;
 }
 
 .navbar-logo:hover {
