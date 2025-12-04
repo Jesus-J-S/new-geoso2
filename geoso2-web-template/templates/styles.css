@@ -116,6 +116,14 @@ body {
     text-align: center;  
 }
 
+.marco3 {
+    border: 2px solid rgb(86, 93, 113);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
 .imagen-derecha {
     float: right;
     margin-left: 15px;
