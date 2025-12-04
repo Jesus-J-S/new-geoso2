@@ -151,3 +151,34 @@ body {
     font-size: 10px;
 }
   
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.marco-columna, .marco {
+  background-color: rgb(74, 81, 101);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 45%;
+  text-align: center;
+}
+
+.marco-columna img, .marco img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.marco-columna p, .marco p {
+  color: white;
+}
+
+a {
+  text-decoration: none; /* quita subrayado */
+  color: inherit;        /* mantiene color normal */
+}

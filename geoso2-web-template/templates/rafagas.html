@@ -12,3 +12,49 @@
 
   <div id="navbar"></div>
 
+  <a href="pagina1.html">
+    <div class="marco-columna">
+      <img src="../imagenes/rafagas/rafagas1_01.jpg" alt="Imagen 1">
+      <p>Impacto positivo de la declaración de parque regional en evolución de la calidad de agua</p>
+      <p>La declaración del Parque Regional del Sureste en 1994 parece haber tenido un impacto positivo 
+        en la evolución de la calidad de agua de las lagunas de gravera a lo largo de los años estudiados (1984-2011).
+         Se redujo a la mitad el número de masas de agua hipereutróficas, e incluso, al final del periodo, aparecieron 
+         masas de agua oligotróficas. Leer más…</p>
+    </div>si armamelo todo compleg+
+  </a>
+    <a href="pagina2.html">
+        <div class="marco">
+        <img src="../imagenes/rafagas/rafagas2_01.jpg" alt="Imagen 2">
+        <p></b>Ejemplo de visor de temperaturas en la España Peninsular (en pruebas)</b></p>
+        <p>Se trata de un ejemplo de visor para manejar datos ráster en grandes extensiones,
+            en este caso temperaturas medias en la España Peninsular. Los datos que se muestran
+             son ficticios y solo se utilizan para ilustrar la variación de una variable en el espacio.
+        </p>
+        </div>
+
+        <footer class="footer">
+          <div>
+            <div>
+              <p><a href="https://www.upm.es"><img src="https://www.geoso2.es/logos/UPM/UPM-Escudo_con_leyenda.svg"
+                    width="45%"></a></p>
+            </div>
+            <div>
+                Grupo de Investigación Geoespacial y Dinámicas Territoriales para la Sostenibilidad
+              </p>
+            </div>
+            <div>
+                v.03.0
+              </p>
+            </div>
+          </div>
+      </footer>
+    <script>
+      fetch("navbar.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("navbar").innerHTML = data)
+        .catch(err => console.error("Error cargando navbar:", err));
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
